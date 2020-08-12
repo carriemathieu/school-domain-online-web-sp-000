@@ -5,5 +5,6 @@ class School
   
   def initialized
     @name = name
+    ROSTER = {}
   end
 end
