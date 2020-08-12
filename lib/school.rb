@@ -1,7 +1,8 @@
 class School 
-  :name
+  :name :roster
   
   ROSTER = {}
+  
   def initialized
     @name = name
   end
