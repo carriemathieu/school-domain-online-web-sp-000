@@ -3,6 +3,6 @@ class School
   
   def initialized
     @name = name
-    ROSTER = {}
+    @roster = {}
   end
 end
