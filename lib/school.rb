@@ -19,7 +19,7 @@ class School
   
   def sort(name)
     @roster each do |grade,name|
-      grade = name.sort
+      @roster = name.sort
     end
   end
 end
